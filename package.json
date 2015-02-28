@@ -1,0 +1,28 @@
+{
+  "name": "this-injection",
+  "version": "0.0.1",
+  "description": "Test to know if injected objects on the `this` scope into a function are resolved as local variables of it.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/pandres95/this-injection.git"
+  },
+  "keywords": [
+    "injection",
+    "objects",
+    "functions",
+    "this"
+  ],
+  "author": "Pablo Andrés Dorado Suárez <pandres95@boolinc.co>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pandres95/this-injection/issues"
+  },
+  "homepage": "https://github.com/pandres95/this-injection",
+  "dependencies": {
+    "object-injector": "0.0.1"
+  }
+}
